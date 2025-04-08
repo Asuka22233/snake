@@ -56,6 +56,8 @@ void Start()
 
     CreateMap();
     AddSnakeNode(NULL);
+	// 生成食物
+
 
     AddFood();
     HideCursor();
@@ -65,6 +67,7 @@ void Updata()
 {
     MoveControl();
     Collide();
+	// 处理蛇头与食物的碰撞
     UpdataMap();
     Sleep(FPS);
 }
@@ -286,6 +289,11 @@ void ShowScore(GameType type, int x, int y)
 
     switch (type)
     {
+		
+		
+		
+		
+		//
     case Run:
         printf("游戏得分：%d\n", score);
         break;
