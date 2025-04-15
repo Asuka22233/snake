@@ -1,0 +1,13 @@
+*.filters
+*.db
+*.vsidx
+/snake/.vs/snake/v17
+*.user
+*.recipe
+*.ilk
+*.log
+*.obj
+*.tlog
+*.idb
+*.pdb
+*.exe
